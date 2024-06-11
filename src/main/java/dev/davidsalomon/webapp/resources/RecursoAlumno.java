@@ -1,6 +1,6 @@
 package dev.davidsalomon.webapp.resources;
 
-import dev.davidsalomon.webapp.service.DataService;
+import dev.davidsalomon.webapp.service.AlumnoDataService;
 import entities.Alumno;
 import jakarta.ejb.EJB;
 import jakarta.ws.rs.Consumes;
@@ -22,8 +22,9 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 @Path("/alumnos")
-public class Recurso {
-    @EJB DataService service;
+public class RecursoAlumno {
+    @EJB
+    AlumnoDataService service;
     
     @GET
     public Response getAlumnos(){

@@ -13,7 +13,7 @@ import java.util.List;
  * @author david
  */
 @Stateless
-public class DataService {
+public class AlumnoDataService {
 
     @PersistenceContext(unitName = "my_persistence_unit")
     EntityManager entityManager;
