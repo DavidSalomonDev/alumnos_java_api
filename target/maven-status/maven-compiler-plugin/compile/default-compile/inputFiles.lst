@@ -1,4 +1,8 @@
-C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\resources\Recurso.java
-C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\service\DataService.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\service\AlumnoDataService.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\entities\Materia.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\service\MateriaDataService.java
 C:\Users\david\Documents\NetBeans\webapp\src\main\java\entities\Alumno.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\controllers\IndexController.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\resources\RecursoAlumno.java
 C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\resources\App.java
+C:\Users\david\Documents\NetBeans\webapp\src\main\java\dev\davidsalomon\webapp\resources\RecursoMateria.java

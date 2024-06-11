@@ -1,4 +1,8 @@
-dev\davidsalomon\webapp\resources\Recurso.class
+entities\Materia.class
+dev\davidsalomon\webapp\resources\RecursoAlumno.class
+dev\davidsalomon\webapp\service\AlumnoDataService.class
+dev\davidsalomon\webapp\resources\RecursoMateria.class
+dev\davidsalomon\webapp\controllers\IndexController.class
 dev\davidsalomon\webapp\resources\App.class
-dev\davidsalomon\webapp\service\DataService.class
+dev\davidsalomon\webapp\service\MateriaDataService.class
 entities\Alumno.class

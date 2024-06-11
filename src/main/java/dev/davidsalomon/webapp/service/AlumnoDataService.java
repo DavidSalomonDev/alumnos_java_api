@@ -19,11 +19,12 @@ public class AlumnoDataService {
     EntityManager entityManager;
 
     public List<Alumno> getAlumnos() {
-        Query query = entityManager.createQuery("SELECT e FROM Alumno e ORDER BY e.id");
+        Query query = entityManager.createQuery("SELECT e FROM Alumno e ORDER BY e.id DESC");
 
         List<Alumno> alumnos = query.getResultList();
         return alumnos;
     }
+
 
     @Transactional
     public void saveAlumno(Alumno alumno) {
