@@ -28,15 +28,15 @@ public class RecursoMateria {
     }
     
     @POST
-    public Response saveMateria(Materia alumno){
-        service.saveMateria(alumno);
+    public Response saveMateria(Materia materia){
+        service.saveMateria(materia);
         
         return Response.ok("Materia creado exitosamente").build();
     }
     
     @PUT
-    public Response editMateria(Materia alumno){
-        service.editMateria(alumno);
+    public Response editMateria(Materia materia){
+        service.editMateria(materia);
         
         return Response.ok("Materia editado exitosamente").build();
     }
